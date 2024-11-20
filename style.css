@@ -39,6 +39,9 @@
     .navbar-nav .nav-item {
         margin: 10px 0; 
     }
+    .navbar .company-name{
+    display:none;
+    }
 }
 
 /* Add Active Class Color */
