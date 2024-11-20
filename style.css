@@ -27,22 +27,36 @@
 }
 
 
-
 /* Navbar Responsive Design */
 @media (max-width: 991.98px) {
+    /* Set background color for collapsed navbar */
     .navbar-collapse {
         background-color: #0056b3; 
     }
+
+    /* Center the navbar items */
     .navbar-nav {
         text-align: center;
+        width: 100%; /* Ensure full width */
     }
+
+    /* Adjust nav-item spacing */
     .navbar-nav .nav-item {
-        margin: 10px 0; 
+        margin: 10px 0; /* Ensure proper spacing */
     }
-    .company-name{
-    display:none;
+
+    /* Hide the company name on mobile */
+    .company-name {
+        display: none;
+    }
+
+    /* Optional: Style the navbar links for better readability */
+    .navbar-nav .nav-link {
+        color: white; /* Change color for visibility */
+        padding: 10px 20px; /* Adjust padding for better touch targets */
     }
 }
+
 
 /* Add Active Class Color */
 .nav-item .active {
